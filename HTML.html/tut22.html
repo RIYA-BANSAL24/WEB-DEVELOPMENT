@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors & more designing</title>
+    <style>
+        .container{
+            border:2px solid red ;
+            background-color: chartreuse;
+            padding: 34px ;
+            margin: auto 34px;
+            width: 666px;
+        }
+        a{
+            /* this property helps to delete underline from the reference text */
+            text-decoration: none;
+            color:black;
+        }
+        /* this "hover" command use whenever we click on a text it change the font colour while clicking */
+        /* It is a Pseudo selector */
+        a:hover{
+            color:rgb(214, 104, 104);
+            background-color: crimson;
+        }
+        /* when we click on the link and visited that link */
+        a:visited{
+            color: yellow;
+        }
+        a:active{
+            background-color: darkblue;
+        }
+        .btn{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            background-color: rgb(67, 220, 20);
+            padding: 6px;
+            border: none;
+            /* cursor pointer is used to click on a specific text */
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color:pink ;
+            background-color: blueviolet;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non obcaecati labore, dolore sint ullam quas at. Debitis blanditiis dolores, voluptates error deleniti quis. Ducimus iste rem recusandae, esse vel amet laudantium veritatis accusantium aliquam.</p>
+
+        <a href="https://google.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

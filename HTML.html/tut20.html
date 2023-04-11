@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* * is a universal selector */
+        /* text inside the box */
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding: 0;
+        }
+        /* body is for text */
+        body{
+            background-color: antiquewhite;
+        }
+        .container{
+            background-color: rgb(34, 97, 165);
+            border: 3px solid rgb(10,12,47);
+
+            /* We can set both padding and margin from all sides */
+            /* padding-bottom: 45px; */
+            /* padding: 19px; */
+            /* padding: top right bottom left */
+            /* padding: 23px 56px 6px 78px; */
+            /* padding: y(top/bottom) x(left/right) */
+               padding: 34px 19px; 
+
+            /* margin-right:34px */
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 233px;
+        }
+        .iim{
+            height:400px;
+            width:605px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi commodi iure fugiat quibusdam eaque qui praesentium, esse repellendus, magnam quod officiis, fuga impedit. Dolores temporibus, voluptatum modi aperiam provident ratione.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi commodi iure fugiat quibusdam eaque qui praesentium, esse repellendus, magnam quod officiis, fuga impedit. Dolores temporibus, voluptatum modi aperiam provident ratione.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi commodi iure fugiat quibusdam eaque qui praesentium, esse repellendus, magnam quod officiis, fuga impedit. Dolores temporibus, voluptatum modi aperiam provident ratione.</p>
+    </div>
+
+    <h3>BOX MODEL IMAGE</h3>
+    <img class="iim" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/CSS-Box-Model.png" alt="No data found">
+
+    
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Lists</title>
+</head>
+
+<body>
+    <!-- "UL" = is used for unordered list  -->
+    <!-- ul type = square/disc/circle-->
+    <ul type="square">
+        <li>This is first term of my unordered list</li>
+        <li>This is second term of my unordered list</li>
+        <li>
+            <!-- Nested unordered list item-->
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+            </ul>
+        </li>
+        <li>This is third term of my unordered list</li>
+    </ul>
+    <!-- "OL" = is used for ordered list -->
+    <!-- ol type = "specific bullet/five types"-->
+    <ol type="I">
+        <li>This is first term of my ordered list</li>
+        <li>This is second term of my ordered list</li>
+        <li>
+            <!-- Nested ordered list -->
+            <ol type="a">
+                <li>Here</li>
+                <li>is</li>
+                <li>me!</li>
+            </ol>
+        </li>
+        <li>This is third term of my ordered list</li>
+    </ol>
+    <!-- Tables -->
+    <h3>HTML Table</h3>
+    <hr>
+    <table
+    <!--To set border-->
+        <!-- border="5"
+        cellpadding="25"
+        cellspacing="5"> -->
+        <thead>
+            <!-- Insertion of row -->
+            <tr>
+                <!-- Insertion of Heading -->
+                <th>Emp_Id</th>
+                <th>Emp_Name</th>
+                <th>Emp_Desg</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Insertion of data -->
+                <td> 4633 </td>
+                <td> Gogo </td>
+                <td> Student </td>
+            </tr>
+            <tr>
+                <td> 2233 </td>
+                <td> Kanika </td>
+                <td> Programmer </td>
+            </tr>
+            <tr>
+                <td> 4555 </td>
+                <td> Falguni </td>
+                <td> Biotech </td>
+            </tr>
+            <tr>
+                <td> 8753 </td>
+                <td> Anjali </td>
+                <td> IAS </td>
+            </tr>
+            <tr>
+                <td> 8279 </td>
+                <td> Riya </td>
+                <td> Coder </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <!-- Another table -->
+    <table
+    border="0"
+    cellpadding="4"
+    cellspacing="8">
+        <tr>
+            <!-- Button used to out text into the separate block-->
+            <td><button>Samsung</button></td>
+            <td><button>Apple</button></td>
+            <td><button>Redmi</button></td>
+        </tr>
+        <tr>
+            <td><button>Web</button></td>
+            <td><button>Android</button></td>
+            <td><button>Game</button></td>
+        </tr>
+    </table>
+</body>
+</html>

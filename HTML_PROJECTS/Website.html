@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiGo Fitness Hub</title>
+</head>
+<!-- To insert style sheet from the CSS folder -->
+<link rel="stylesheet" href="css/style11.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        /* To set background image */
+        background: url('img/gym_1.jpg');
+    }
+
+    .left {
+        position: absolute;
+        top: 12px;
+        left: 60px;
+        display: inline-block;
+    }
+    .left div{
+        line-height: 29px;
+        font-size: 19px;
+        text-align: center;
+    }
+    .left img{
+        color: white;
+        width:142px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 51px auto;
+    }
+
+    .right {
+        position: absolute;
+        top: 27px;
+        right: 54px;
+        display: inline-block;
+        font-size: medium;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        font-size: 25px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        color: grey;
+        text-decoration: underline;
+        padding: 34px 23px;
+    }
+    .btn{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        margin: 18px 18px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    .btn:hover{
+        background-color: rgb(45, 36, 36);
+    }
+    .container{
+        margin: 162px 175px;
+        padding: 17px ;
+        width: 40%;
+        border-radius: 20px;
+    }
+    .form-group input{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        text-align: center;
+        display: block;
+        font-size: 25px;
+        width:678px ;
+        padding: 6px;
+        margin: 11pxpx auto;
+        border-radius: 10px;
+    }
+    .container h1, .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 33%;
+        margin: auto;
+        border-radius: 33px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- this div for logo -->
+        <div class="left">
+            <img src="img/yy.jpg" alt="">
+            <div>RiGo Fitness Hub</div>
+        </div>
+        <!-- This div for navigation options -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <!-- This div for buttons -->
+        <div class="right">
+            <button class="btn">Contact Us</button>
+            <button class="btn">FAQ</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Are you a fitness freak person? <br></h1>
+        <h2>Join Us Now</h2>
+        <form action="noaction.php">
+            <di class="form-group">
+                <input type="text" name="" placeholder="Your name">
+            </di><br>
+            <di class="form-group">
+                <input type="number" name="" placeholder="Your Age">
+            </di><br>
+            <di class="form-group">
+                <input type="text" name="" placeholder="Gender">
+            </di><br>
+            <di class="form-group">
+                <input type="email" name="" placeholder="Your email">
+            </di><br>
+            <di class="form-group">
+                <input type="number" name="" placeholder="Your phone number">
+            </di><br>
+            <di class="form-group">
+                <input type="text" name="" placeholder="City">
+            </di><br>
+            <button class="btn">Submit Now</button>
+        </form>
+    </div>
+</body>
+
+</html>
